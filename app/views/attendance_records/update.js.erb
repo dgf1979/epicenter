@@ -1,0 +1,3 @@
+var replace_with = "<%= j (render @student) %>";
+var student_div = $("div#student_" + "<%= j (@student.id.to_s) %>");
+student_div.replaceWith(replace_with);
