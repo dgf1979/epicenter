@@ -1,3 +1,10 @@
+Running sample of branch modifictions at:
+
+  https://infinite-falls-9240.herokuapp.com
+  
+  Login as 'admin@site.com' with password 'password' and view Winter 2015 cohort sign in/out
+
+
 [![Build status](https://travis-ci.org/epicodus/epicenter.svg?branch=master)](https://travis-ci.org/epicodus/epicenter)
 [![Code climate](https://codeclimate.com/github/epicodus/epicenter/badges/gpa.svg)](https://codeclimate.com/github/epicodus/epicenter)
 [![Coverage status](https://coveralls.io/repos/epicodus/epicenter/badge.svg)](https://coveralls.io/r/epicodus/epicenter)
