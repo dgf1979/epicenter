@@ -23,3 +23,17 @@ cohorts = [
 cohorts.each do |description, start_date, end_date|
   Cohort.create(description: description, start_date: start_date, end_date: end_date)
 end
+
+
+#Admin
+Admin.create({ name: "Admin One", email: "admin@site.com", cohort_id: 3, password: "password" })
+
+#Students
+students = ["Ava", "Ben", "Charlene", "Dan", "Edgar", "Fern", "Garret", "Han",
+            "Ingrid", "Jasmine", "Keith", "Lewis", "Modani", "Nemo", "Otis",
+            "Peter", "Queen", "Rooster", "Stan", "Tig", "Una", "Vanessa", "Wen",
+            "Xuxu", "Yennifer", "Zooey"]
+
+students.each do |student|
+  User.create({ name: student, email: "#{student}@site.com", cohort_id: 3, current_cohort_id: 3, password: "password", type: "Student", plan_id: 4 })
+end
